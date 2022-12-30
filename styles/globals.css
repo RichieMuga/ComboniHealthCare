@@ -1,4 +1,37 @@
 :root {
+  /* primary colors  */
+  --btn-red: #e62222;
+  --nav-top-red: #f32424;
+  --dark-brown: #2c1818;
+  --light-grey: #f2f2f2;
+  --red-pinkish-mix: #e1cfcf;
+
+  --dark-blue: #232f3e;
+  --dark-blue-footer: #232f3e;
+
+  --abit-black: #323232;
+
+  /* letter colors */
+
+  --link-color: #0645ad;
+  /* heights */
+  --nav-height: 6rem;
+  /* other properties*/
+  --borderRadius5: 5px;
+  --borderRadius10: 10px;
+  --backgroundColor: #ffffff;
+  --transition: 0.3s ease-in-out all;
+  --fluid-width: 90vw;
+  /* shadows */
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  /* letter spacing */
+  --letterSpacing: 2px;
 }
 body {
   background-color: #ffffff;

@@ -2,27 +2,62 @@
 ** The Header Media Queries **
 ** Tweak as per your needs **
 */
-.brand {
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
-}
 
 .site_header {
   position: relative;
-  background-color: #def7ff;
+  background-color: var(--light-grey);
+  padding: 0 2em;
 }
 
 .site_header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 0;
+  /* padding-top: 0.5em;
+  padding-bottom: 0.5em; */
 }
+
+/* CSS */
+.button_24 {
+  background: var(--btn-red);
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button_24:hover,
+.button_24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: var(--btn-red);
+}
+
+.button_24:active {
+  opacity: 0.5;
+}
+
 @media (min-width: 660px) {
   .site_header__wrapper {
-    padding-top: 0;
+    /* padding-top: 5px; */
     padding-bottom: 0;
   }
 }
@@ -45,12 +80,13 @@
     right: 0;
     left: 0;
     z-index: -1;
-    background-color: #d9f0f7;
+    background-color: var(--light-grey);
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
     margin-top: 0;
+    margin-top: 5px;
   }
   .nav__wrapper.active {
     visibility: visible;
@@ -58,11 +94,45 @@
     transform: translateY(0);
   }
 }
-
 .nav__item a {
   display: block;
   padding: 1.5rem 1rem;
   color: black;
+}
+
+.nav__item {
+  display: block;
+  color: black;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; /* removes the default underline from the link */
+  transition: all 0.2s ease-in-out; /* adds a smooth transition to the hover effect */
+}
+.nav__item:hover {
+  text-decoration: underline;
+}
+.nav__item::before {
+  content: ""; /* adds a content property to the pseudo-element, which is required for the hover effect to work */
+  position: absolute; /* positions the underline absolutely */
+  bottom: 0; /* positions the underline at the bottom of the navlink */
+  left: 0; /* starts the underline at the left edge of the navlink */
+  right: 0; /* stretches the underline to the right edge of the navlink */
+  height: 2px; /* sets the height of the underline */
+  background-color: var(--btn-red); /* sets the color of the underline */
+  transform: translateX(
+    -100%
+  ); /* moves the underline out of view to the left */
+  transition: all 0.2s ease-in-out; /* adds a smooth transition to the hover effect */
+}
+
+.nav__item:hover:before {
+  transform: translateX(
+    0
+  ); /* brings the underline back into view from the left */
+}
+.active {
+  border-top: 2px solid #ff4742;
+  border-bottom: 2px solid #ff4742;
 }
 
 .nav__toggle {
