@@ -1,0 +1,29 @@
+.landing_section {
+  width: 100%;
+  overflow: hidden;
+}
+.landingBox {
+  margin: 5em 8em;
+  width: 30em;
+  height: 19em;
+}
+
+.landingBox h1 {
+  font-size: 2.5em;
+  color: var(--pinkish-text);
+}
+
+.landingBox p {
+  font-size: large;
+  line-height: 1.8;
+  color: var(--dark-brown);
+}
+
+@media (max-width: 659px) {
+  .landingBox {
+    margin: 2em 3em;
+    width: 20em;
+    height: 19em;
+    overflow: hidden;
+  }
+}

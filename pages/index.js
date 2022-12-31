@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import HeroOutline from '../components/LandingPage/HeroOutline'
+import Testimonials from '../components/LandingPage/Testimonials'
+import WhatweDo from '../components/LandingPage/WhatweDo'
 import NavBar from '../components/NavBar'
 
 
@@ -12,6 +15,9 @@ export default function Home() {
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <NavBar />
+      <HeroOutline />
+      <WhatweDo />
+      <Testimonials />
     </>
   )
 }

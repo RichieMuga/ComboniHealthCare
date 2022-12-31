@@ -7,6 +7,7 @@
   position: relative;
   background-color: var(--light-grey);
   padding: 0 2em;
+  box-shadow: var(--shadow-2);
 }
 
 .site_header__wrapper {
@@ -79,7 +80,7 @@
     top: 100%;
     right: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
     background-color: var(--light-grey);
     visibility: hidden;
     opacity: 0;
@@ -145,4 +146,8 @@
     right: 1rem;
     top: 1rem;
   }
+}
+.active {
+  border-top: none;
+  border-bottom: 2px solid #ff4742;
 }

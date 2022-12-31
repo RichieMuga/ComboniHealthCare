@@ -11,6 +11,8 @@
 
   --abit-black: #323232;
 
+  --pinkish-text: #e1cfcf;
+
   /* letter colors */
 
   --link-color: #0645ad;
@@ -62,4 +64,31 @@ h3,
 h4,
 h5 {
   margin: 0;
+}
+
+.heading_main {
+  font-size: 400px;
+  color: red;
+}
+.normal-header {
+  text-align: center;
+  color: var(--dark-brown);
+  text-decoration: underline;
+}
+.fancyHeader {
+  margin-top: 5em;
+  text-align: center;
+  color: white;
+  background: var(--dark-brown);
+  padding: 0.5em;
+}
+.full-width-bg {
+  z-index: -1;
+}
+.ontop {
+  position: absolute;
+  top: 2em;
+  z-index: 1;
+  color: red;
+  font-size: 36px;
 }
