@@ -8,7 +8,7 @@ const CardDetails = ({ text, children }) => {
     return (
         <div className={styles.column}>
             <div className={styles.card}>
-                <Image>{children}</Image>
+                {/* <Image>{children}</Image> */}
                 <p>{text}</p>
             </div>
         </div>

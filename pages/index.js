@@ -3,6 +3,8 @@ import HeroOutline from '../components/LandingPage/HeroOutline'
 import Testimonials from '../components/LandingPage/Testimonials'
 import WhatweDo from '../components/LandingPage/WhatweDo'
 import NavBar from '../components/NavBar'
+import Faqs from '../components/LandingPage/Faqs';
+
 
 
 export default function Home() {
@@ -18,6 +20,7 @@ export default function Home() {
       <HeroOutline />
       <WhatweDo />
       <Testimonials />
+      <Faqs />
     </>
   )
 }

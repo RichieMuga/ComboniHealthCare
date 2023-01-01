@@ -1,9 +1,7 @@
 import React from 'react'
 import styles from '../../styles/landing.module.css'
-import { Carousel } from 'react-multi-carousel';
 import girlImage from '../../public/assets/prototypePictures/children/smallGirlSmile.jpg'
 import boyImage from '../../public/assets/prototypePictures/children/smallboysmile.jpg'
-import Image from 'next/image'
 
 
 const HeroOutline = () => {

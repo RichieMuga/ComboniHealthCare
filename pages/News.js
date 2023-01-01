@@ -17,10 +17,7 @@ const News = () => {
     return (
         <div>
             <NavBar />
-            <div className="full-width-bg">
-                <Image src={girlImage} alt="Girl Image" />
-                <p className='ontop'>sexypunda</p>
-            </div>
+            News
         </div>
     )
 }
