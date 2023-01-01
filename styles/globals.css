@@ -201,6 +201,75 @@ h5 {
   text-align: center;
 }
 
+.faq-container {
+	 width: 100%;
+	 margin: 2em 0;
+	 height: auto;
+	 color: black;
+	 text-align: center;
+}
+ .faq-container .list-container {
+	 height: fit-content;
+	 margin: 0 auto;
+	 width: 90%;
+}
+ .faq-container .list-container ul {
+	 margin: 1em 0;
+	 padding: 0;
+	 text-align: left;
+	 background: var(--dark-blue);
+}
+ .faq-container .list-container ul li {
+	 color: #fff;
+	 display: flex;
+	 flex-wrap: wrap;
+	 flex-direction: row;
+	 border-color: white;
+	 padding: 1em 0;
+	 padding-top: 1em;
+}
+ .faq-container .list-container ul li button {
+	 margin-left: auto;
+	 margin-right: 1em;
+	 height: 1.8em;
+	 width: 0;
+	 height: 0;
+	 background-color: transparent;
+	 border-top: 13px solid transparent;
+	 border-right: 24px solid #fff;
+	 border-bottom: 13px solid transparent;
+	 border-left: transparent;
+	 cursor: pointer;
+   margin-top:1em;
+}
+ .faq-container .list-container ul li .show-more {
+	 display: block;
+	 transition-delay: 500ms;
+	 background-color: white;
+}
+ .faq-container .list-container ul li .rotate-btn {
+	 transform: rotate(-90deg);
+	 transition: 500ms;
+}
+ .faq-container .list-container ul li p {
+	 padding-left: 2em;
+	 background: transparent;
+}
+ .faq-container .list-container ul li:first-child {
+	 padding-top: 0.8em;
+}
+ .faq-container .list-container ul .faq-text {
+	 color: #000;
+	 page-break-after: always;
+	 display: none;
+	 border-style: solid;
+	 border-color: #538fa8;
+	 background: red;
+	 padding: 0.5em 3em;
+}
+ 
+
+
 @media only screen and (max-width: 934px) {
   .carousel-root {
     outline: 0;
