@@ -5,6 +5,7 @@ import WhatweDo from '../components/LandingPage/WhatweDo'
 import NavBar from '../components/NavBar'
 import Faqs from '../components/LandingPage/Faqs';
 import Patners from '../components/LandingPage/Patners';
+import Footer from '../components/Footer'
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Testimonials />
       <Faqs />
       <Patners />
+      <Footer />
     </>
   )
 }

@@ -19,11 +19,27 @@
   color: var(--dark-brown);
 }
 
+.patner_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+/* .patner_column {
+} */
+
 @media (max-width: 659px) {
   .landingBox {
     margin: 2em 3em;
     width: 20em;
     height: 19em;
     overflow: hidden;
+  }
+  .patner_container {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
   }
 }
