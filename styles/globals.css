@@ -267,6 +267,17 @@ h5 {
 	 background: red;
 	 padding: 0.5em 3em;
 }
+.smallP {
+  font-size: 0.8em;
+  color: white;
+}
+.flex_kidogo {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 0 1em;
+  /* color: var(--font-white); */
+}
  
 
 
