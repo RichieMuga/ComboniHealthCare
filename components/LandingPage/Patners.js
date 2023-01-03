@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import patnersList from '../../utils/patners'
-import styles from '../../styles/landing.module.css'
+import styles from '../../styles/LandingPageCss/landing.module.css'
 
 
 

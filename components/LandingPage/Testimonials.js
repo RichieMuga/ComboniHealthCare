@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import girlImage from '../../public/assets/prototypePictures/children/smallGirlSmile.jpg'
 import boyImage from '../../public/assets/prototypePictures/children/smallboysmile.jpg'

@@ -1,16 +1,20 @@
 import styles from '../styles/footer.module.css'
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
-import Image from 'next/image'
-import logo from '../public/assets/logos/comboniHealthProgramme-removebg-preview.png'
+import { animateScroll as scroll } from 'react-scroll'
 import { HiLocationMarker } from "react-icons/hi";
 
 
 // BsTwitter
 
 const Footer = () => {
+    const handleBackTotop = () => {
+        scroll.scrollToTop({
+            smooth: true, // this value enables the smooth scrolling animation
+        })
+    }
     return (
         <div className={styles.footer}>
-            <button className={styles.btn_top} type="submit">Back to top</button>
+            <button onClick={handleBackTotop} className={styles.btn_top} type="submit">Back to top</button>
             {/* newsletter section */}
             <div className={styles.newsLetter}>
                 <h4 className={styles.newsLetterTitle}>NewsLetter</h4>

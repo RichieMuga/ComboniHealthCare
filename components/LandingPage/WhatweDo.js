@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/whatweDo.module.css'
+import styles from '../../styles/LandingPageCss/whatweDo.module.css'
 import CardDetails from '../CardDetails'
 import womanHug from '../../public/assets/prototypePictures/children/womanHugging.jpg'
 

@@ -1,0 +1,35 @@
+.about_container {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  background: var(--light-grey);
+  margin: 2em;
+}
+.readableParagraph {
+  padding: 0 2em;
+}
+
+.image2 {
+  width: 500px;
+  height: 400px;
+  object-fit: fill;
+}
+
+@media (max-width: 780px) {
+  .about_container {
+    margin: 1em;
+  }
+  .about_container {
+    flex-direction: column;
+  }
+  .readableParagraph {
+    padding: 1em 1em;
+  }
+  .image2 {
+    padding: 0 1em;
+    width: 90%;
+    height: 60%;
+    object-fit: fill;
+    padding: 0 1em;
+  }
+}

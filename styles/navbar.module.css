@@ -139,6 +139,9 @@
 .nav__toggle {
   display: none;
 }
+.nav__toggle:hover {
+  cursor: pointer;
+}
 @media (max-width: 659px) {
   .nav__toggle {
     display: block;

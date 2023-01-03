@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/landing.module.css'
+import styles from '../../styles/LandingPageCss/landing.module.css'
 import girlImage from '../../public/assets/prototypePictures/children/smallGirlSmile.jpg'
 import boyImage from '../../public/assets/prototypePictures/children/smallboysmile.jpg'
 
