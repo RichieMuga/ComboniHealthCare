@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  background: black;
+  width: 100%;
+  /* background: var(--dark-brown); */
+  /* opacity: 0.75; */
+}
+.VnMcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  /* opacity: 0.75; */
+  /* background: var(--dark-brown); */
+}
+.images {
+  width: 100%;
+  height: 28.125em;
+  object-fit: cover;
+}
+.VnMinnerContainer {
+  background: var(--dark-brown);
+  color: white;
+}
+.vision {
+  color: var(--pinkish-text);
+}
+.mission {
+  color: var(--orange);
+}
+.VnMinnerContainer {
+  padding: 2em;
+}
+/* whidth 37.8125em height 28.125em */
+
+@media (max-width: 780px) {
+  .VnMcontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .VnMinnerContainer {
+    margin: 0;
+  }
+}

@@ -14,7 +14,13 @@
   height: 400px;
   object-fit: fill;
 }
-
+/* our journey section i'm too lazy to make another file */
+.journey_container {
+  background: var(--dark-brown);
+  color: white;
+  padding: 2em;
+  line-height: 2em;
+}
 @media (max-width: 780px) {
   .about_container {
     margin: 1em;
@@ -28,7 +34,7 @@
   .image2 {
     padding: 0 1em;
     width: 90%;
-    height: 60%;
+    height: 10%;
     object-fit: fill;
     padding: 0 1em;
   }

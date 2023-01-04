@@ -30,3 +30,13 @@ const HeroOutline = () => {
 }
 
 export default HeroOutline
+
+// import './styles.css'
+
+// function MyComponent() {
+//     return (
+//         <div className="my-component">
+//             {/* component content goes here */}
+//         </div>
+//     )
+// }
