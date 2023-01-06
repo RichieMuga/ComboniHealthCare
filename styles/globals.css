@@ -286,6 +286,19 @@ h5 {
   margin: 0 1em;
   /* color: var(--font-white); */
 }
+/* .cert1 {
+  width: 5%;
+  object-fit: fill;
+}
+.containerA {
+} */
+.containerAchievements {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 2em;
+  gap: 1em;
+}
 
 @media only screen and (max-width: 934px) {
   .carousel-root {
