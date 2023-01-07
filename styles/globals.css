@@ -4,6 +4,7 @@
   --nav-top-red: #f32424;
   --dark-brown: #2c1818;
   --light-grey: #f2f2f2;
+  --light-brown: #5e5050;
   --red-pinkish-mix: #e1cfcf;
 
   --dark-blue: #232f3e;
@@ -287,10 +288,9 @@ h5 {
   /* color: var(--font-white); */
 }
 /* .cert1 {
-  width: 5%;
-  object-fit: fill;
-}
-.containerA {
+  padding: 0 2em;
+} */
+/* .containerA {
 } */
 .containerAchievements {
   display: flex;
@@ -298,6 +298,23 @@ h5 {
   overflow: hidden;
   margin-bottom: 2em;
   gap: 1em;
+  align-items: center;
+}
+.paragraph-111 {
+  margin: 1em 1em;
+}
+.div-box-Number-Email {
+  padding: 2em 1em;
+  /* display: flex;
+  justify-content: center; */
+  /* flex-direction: column; */
+  margin: 3em auto;
+  font-size: larger;
+  width: 50%;
+  background: var(--light-brown);
+  color: white;
+  border-radius: var(--borderRadius5);
+  text-align: center;
 }
 
 @media only screen and (max-width: 934px) {
@@ -327,5 +344,16 @@ h5 {
   .carousel .slide img {
     width: 24% !important;
     border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .paragraph-11 {
+    margin: 0 2em;
+  }
+  .paragraph-111 {
+    margin: 1em 5em;
+  }
+  .div-box-Number-Email {
+    width: 80%;
   }
 }
