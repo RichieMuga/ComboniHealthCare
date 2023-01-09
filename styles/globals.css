@@ -303,6 +303,9 @@ h5 {
 .paragraph-111 {
   margin: 1em 1em;
 }
+.margintopNv {
+  margin-top: 7em;
+}
 .div-box-Number-Email {
   padding: 2em 1em;
   /* display: flex;
@@ -344,6 +347,11 @@ h5 {
   .carousel .slide img {
     width: 24% !important;
     border-radius: 50%;
+  }
+}
+@media (max-width: 659px) {
+  .margintopNv {
+    margin-top: 5em;
   }
 }
 @media only screen and (max-width: 380px) {

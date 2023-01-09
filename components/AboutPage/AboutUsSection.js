@@ -8,7 +8,7 @@ import styles from '../../styles/AboutPageCss/AboutUs.module.css'
 
 const AboutUsSection = () => {
     return (
-        <div>
+        <div className='margintopNv'>
             <h1 className="fancyHeader">About us</h1>
             <div className='space_up' />
             <h1 className='normal-header'>Changing children{"'"}s lives</h1>

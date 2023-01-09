@@ -4,10 +4,20 @@
 */
 
 .site_header {
-  position: relative;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   background-color: var(--light-grey);
   padding: 0 2em;
   box-shadow: var(--shadow-2);
+  width: 95.5%;
+  transition: ease-in 300ms;
+
+  /* color: red; */
+  /* z-index: 1; */
 }
 
 .site_header__wrapper {
@@ -15,6 +25,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  position: sticky;
+  color: #000;
   /* padding-top: 0.5em;
   padding-bottom: 0.5em; */
 }
@@ -64,7 +76,7 @@
 }
 @media (max-width: 659px) {
   .site_header__end {
-    padding-right: 4rem;
+    padding-right: 5rem;
   }
 }
 
@@ -76,15 +88,18 @@
 
 @media (max-width: 659px) {
   .nav__wrapper {
+    margin-left: -2em;
     position: absolute;
     top: 100%;
     right: 0;
     left: 0;
     z-index: 1;
+    width: 100%;
     background-color: var(--light-grey);
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
+    /* transform: translateX(-27px); */
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
     margin-top: 0;
     margin-top: 5px;
@@ -132,8 +147,8 @@
   ); /* brings the underline back into view from the left */
 }
 .active {
-  border-top: 2px solid #ff4742;
-  border-bottom: 2px solid #ff4742;
+  /* border-top: 2px solid #ff4742; */
+  /* border-bottom: 2px solid #ff4742; */
 }
 
 .nav__toggle {
@@ -146,10 +161,16 @@
   .nav__toggle {
     display: block;
     position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: 1.8rem;
+    top: 1.3rem;
+    background: none;
+    border: none;
+  }
+  .site_header {
+    color: #000;
   }
 }
+
 .active {
   border-top: none;
   border-bottom: 2px solid #ff4742;

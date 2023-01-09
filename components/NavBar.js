@@ -12,6 +12,17 @@ import Link from 'next/link';
 const NavBar = () => {
     const [navOpen, setNavOpen] = useState(false);
     const [active, setActive] = useState("/"); // sets the initial active page to "home"
+
+
+    const [nav, setNav] = useState(false);
+    const [color, setColor] = useState('transparent');
+    const [textColor, setTextColor] = useState('white');
+
+    const handleNav = () => {
+        setNav(!nav);
+    };
+
+
     const toggleNav = () => {
         setNavOpen(!navOpen);
     }
@@ -23,10 +34,31 @@ const NavBar = () => {
 
     }
 
+    useEffect(() => {
+        setTextColor('#000000')
+        setColor('#ffffff')
+    }, [])
+    useEffect(() => {
+        const changeColor = () => {
+            if (window.scrollY >= 70) {
+                setColor('#5e5050');
+                setTextColor('#ffffff');
+            }
+            // if (window.inner <= 400 && window.scrollY >= 70) {
+            //     setTextColor('#000000')
+            // }
+            else {
+                setColor('#ffffff');
+                setTextColor('#000000');
+            }
+        };
+        window.addEventListener('scroll', changeColor);
+    }, []);
+
     return (
         <section>
             {/* header start */}
-            <header className={styles.site_header}>
+            <header className={styles.site_header} style={{ backgroundColor: `${color}` }}>
                 <div className={`${styles.wrapper} ${styles.site_header__wrapper}`}>
 
                     <div className={styles.site_header__start}>
@@ -38,11 +70,11 @@ const NavBar = () => {
                                 {navOpen ? <MdOutlineClose size={30} /> : <MdMenu size={30} />}
                             </button>
                             {/* {navOpen &&} */}
-                            <ul className={`${styles.nav__wrapper} ${navOpen ? styles.active : ''}`}>
-                                <li className={active === "/" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/")} ><Link href="/">Home</Link></li>
-                                <li className={active === "/AboutUs" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/AboutUs")}><Link href="/AboutUs">About us</Link></li>
-                                <li className={active === "/GetInvolved" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link href="/GetInvolved" onClick={() => setActive("GetInvolved")}>Get Involved</Link></li>
-                                <li className={active === "/News" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link href="/News">News</Link></li>
+                            <ul style={{ transition: '300ms ease-in', background: `${color}` }} className={`${styles.nav__wrapper} ${navOpen ? styles.active : ''}`}>
+                                <li className={active === "/" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/")} ><Link style={{ color: `${textColor}` }} href="/">Home</Link></li>
+                                <li className={active === "/AboutUs" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/AboutUs")}><Link style={{ color: `${textColor}` }} href="/AboutUs">About us</Link></li>
+                                <li className={active === "/GetInvolved" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/GetInvolved" onClick={() => setActive("GetInvolved")}>Get Involved</Link></li>
+                                <li className={active === "/News" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link style={{ color: `${textColor}` }} href="/News">News</Link></li>
                             </ul>
                         </nav>
                     </div>
@@ -52,7 +84,7 @@ const NavBar = () => {
                 </div>
             </header>
 
-        </section>
+        </section >
     )
 }
 

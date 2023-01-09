@@ -6,7 +6,7 @@ import { MdEmail, MdOutlineEmail } from "react-icons/md";
 
 const GetInvolved = () => {
     return (
-        <div>
+        <div className='margintopNv'>
             <NavBar />
             <h1 className='normal-header'>Get Involved</h1>
             <p className='special-paragraph'>

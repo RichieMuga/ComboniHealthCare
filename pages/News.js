@@ -14,7 +14,7 @@ const News = () => {
     ];
 
     return (
-        <div>
+        <div className='margintopNv'>
             <NavBar />
             News
         </div>
