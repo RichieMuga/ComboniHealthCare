@@ -9,7 +9,7 @@ const GetInvolved = () => {
         <div className='margintopNv'>
             <NavBar />
             <h1 className='normal-header'>Get Involved</h1>
-            <p className='special-paragraph'>
+            <p className='special-paragraph2'>
                 You can get involved through donating towards projects or paying visits to our organisation.
 
                 <br />

@@ -1,6 +1,10 @@
 .landing_section {
   width: 100%;
   overflow: hidden;
+  background-image: url("../../public/assets/prototypePictures/children/smallGirlSmile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .landingBox {
   margin: 10em 8em;

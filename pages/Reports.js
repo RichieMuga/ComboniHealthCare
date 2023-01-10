@@ -7,7 +7,7 @@ import girlImage from '../public/assets/prototypePictures/children/smallGirlSmil
 
 
 
-const News = () => {
+const Reports = () => {
     const images = [
         { src: logo },
         { src: logo },
@@ -16,9 +16,9 @@ const News = () => {
     return (
         <div className='margintopNv'>
             <NavBar />
-            News
+            Reports
         </div>
     )
 }
 
-export default News
+export default Reports

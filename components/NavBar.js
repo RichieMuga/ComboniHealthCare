@@ -72,9 +72,11 @@ const NavBar = () => {
                             {/* {navOpen &&} */}
                             <ul style={{ transition: '300ms ease-in', background: `${color}` }} className={`${styles.nav__wrapper} ${navOpen ? styles.active : ''}`}>
                                 <li className={active === "/" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/")} ><Link style={{ color: `${textColor}` }} href="/">Home</Link></li>
+                                <li className={active === "/Reports" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/Services")}><Link style={{ color: `${textColor}` }} href="/Services">Services</Link></li>
+
                                 <li className={active === "/AboutUs" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/AboutUs")}><Link style={{ color: `${textColor}` }} href="/AboutUs">About us</Link></li>
                                 <li className={active === "/GetInvolved" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/GetInvolved" onClick={() => setActive("GetInvolved")}>Get Involved</Link></li>
-                                <li className={active === "/News" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link style={{ color: `${textColor}` }} href="/News">News</Link></li>
+                                <li className={active === "/Reports" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link style={{ color: `${textColor}` }} href="/Reports">Reports</Link></li>
                             </ul>
                         </nav>
                     </div>

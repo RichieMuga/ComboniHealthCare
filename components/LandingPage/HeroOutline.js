@@ -20,7 +20,7 @@ const HeroOutline = () => {
             <section className={styles.landingBox}>
                 <h1 className='heading_main'>Who are we?</h1>
                 <p className='normal_head'>
-                    We are a <b>community based organization(CBO)</b> that offer health intervention to the people of Korogocho, Kariobangi and Huruma. Addressing <b>HIV</b> and <b>dIsability among children.</b>
+                    We are a <b>community based organization(CBO)</b> that offer health intervention to the people of Korogocho, Kariobangi and Huruma, addressing <b>HIV</b> and <b>dIsability among children.</b>
                 </p>
             </section>
         </div>
