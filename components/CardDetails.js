@@ -4,7 +4,7 @@ import styles from '../styles/LandingPageCss/whatweDo.module.css'
 
 
 
-const CardDetails = ({ text, children }) => {
+const CardDetails = ({ text }) => {
     return (
         <div className={styles.column}>
             <div className={styles.card}>
