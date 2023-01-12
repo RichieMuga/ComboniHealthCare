@@ -14,13 +14,16 @@ const NavBar = () => {
     const [active, setActive] = useState("/"); // sets the initial active page to "home"
 
 
-    const [nav, setNav] = useState(false);
+
+    // const [nav, setNav] = useState(false);
     const [color, setColor] = useState('transparent');
     const [textColor, setTextColor] = useState('white');
 
-    const handleNav = () => {
-        setNav(!nav);
-    };
+    const [showTeam, setShowTeam] = useState(false);
+
+    // const handleNav = () => {
+    //     setNav(!nav);
+    // };
 
 
     const toggleNav = () => {
@@ -72,16 +75,17 @@ const NavBar = () => {
                             {/* {navOpen &&} */}
                             <ul style={{ transition: '300ms ease-in', background: `${color}` }} className={`${styles.nav__wrapper} ${navOpen ? styles.active : ''}`}>
                                 <li className={active === "/" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/")} ><Link style={{ color: `${textColor}` }} href="/">Home</Link></li>
-                                <li className={active === "/Reports" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/Services")}><Link style={{ color: `${textColor}` }} href="/Services">Services</Link></li>
+                                <li className={active === "/Services" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/Services")}><Link style={{ color: `${textColor}` }} href="/Services">Services</Link></li>
 
                                 <li className={active === "/AboutUs" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/AboutUs")}><Link style={{ color: `${textColor}` }} href="/AboutUs">About us</Link></li>
                                 <li className={active === "/GetInvolved" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/GetInvolved" onClick={() => setActive("GetInvolved")}>Get Involved</Link></li>
+                                <li className={active === "/OurTeaM" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/OurTeam" onClick={() => setActive("GetInvolved")}>Our Team</Link></li>
                                 <li className={active === "/Reports" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link style={{ color: `${textColor}` }} href="/Reports">Reports</Link></li>
                             </ul>
                         </nav>
                     </div>
                     <div className={styles.site_header__end}>
-                        <button className={styles.button_24}>Donate</button>
+                        <Link href="/Donate" className={styles.button_24}>Donate</Link>
                     </div>
                 </div>
             </header>

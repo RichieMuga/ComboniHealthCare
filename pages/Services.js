@@ -1,8 +1,9 @@
 import React from 'react'
 import NavBar from '../components/NavBar';
 import Image from 'next/image'
-import boy from '../public/assets/prototypePictures/children/smallboysmile.jpg'
+// import boy from '../public/assets/prototypePictures/children/smallboysmile.jpg'
 import Footer from '../components/Footer';
+import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
 
 
 
@@ -15,7 +16,7 @@ const Services = () => {
             <p className='special-paragraph2'>We provide quality, affordable and reliable healthcare services to people living with HIV and AIDS and children with disabilities in Korogocho, Kariobangi and Huruma.</p>
             <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy} />
+                    <Image className='roundedPicture' src={boy2} />
                     <div>
                         <h1 className='heading-1 '> Comprehensive Care clinic</h1>
                         <ul className='ul-padding'>
@@ -37,7 +38,7 @@ const Services = () => {
 
             <div className='div-For-responsiveness special-background'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy} />
+                    <Image className='roundedPicture' src={boy2} />
                     <div>
                         <h1 className='heading-1 '> Community Based Rehabilitation Project</h1>
                         <ul className='ul-padding'>
@@ -52,7 +53,7 @@ const Services = () => {
 
             <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy} />
+                    <Image className='roundedPicture' src={boy2} />
                     <div>
                         <h1 className='heading-1 '> Social Support</h1>
                         <ul className='ul-padding'>
@@ -67,7 +68,7 @@ const Services = () => {
 
             {/* <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image src={boy} height={340} width={460} />
+                    <Image src={boy2} height={340} width={460} />
                     <div>
                         <h1 >Community Based Rehabilitation Project</h1>
                         <p>
@@ -86,7 +87,7 @@ const Services = () => {
 
             <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image src={boy} height={340} width={460} />
+                    <Image src={boy2} height={340} width={460} />
                     <div>
                         <h1> Social Support</h1>
                         <p>
