@@ -12,6 +12,12 @@
   overflow: hidden;
   padding: 0 2em;
 }
+.cardImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
 /* Responsive columns */
 @media screen and (max-width: 800px) {

@@ -407,6 +407,11 @@ h5 {
   border-radius: var(--borderRadius5);
   text-align: center;
 }
+.testimonialImages {
+  height: 140px;
+  width: 150px;
+  object-fit: cover;
+}
 .report-div {
   width: 250px;
   height: 250px;
