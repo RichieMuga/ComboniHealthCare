@@ -1,13 +1,12 @@
 import React from 'react'
-import styles from '../styles/LandingPageCss/whatweDo.module.css'
+import { HiOutlineDocumentReport } from "react-icons/hi";
 
-const ReportCard = () => {
+const ReportCard = ({ year, btnFunction }) => {
     return (
-        <div className={styles.column}>
-            <div className={styles.card}>
-                {/* <Image>{children}</Image> */}
-                <p>{text}</p>
-            </div>
+        <div className='report-div'>
+            <HiOutlineDocumentReport color='#ffffff' size={50} />
+            <p>Annual Report {year}</p>
+            <button className='button-30' onClick={btnFunction}>Download</button>
         </div>
     )
 }

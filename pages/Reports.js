@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import logo from '../public/assets/logos/comboniHealthProgramme-removebg-preview.png'
 import { HiOutlineDocumentReport } from "react-icons/hi";
 import ReportCard from '../components/ReportCard';
+import Footer from '../components/Footer';
 
 const Reports = () => {
     const images = [
@@ -85,12 +86,17 @@ const Reports = () => {
         <div className='margintopNv'>
             <NavBar />
             <h1 className='normal-header'>Reports</h1>
-            <div>
-                2015 Report
-                <button onClick={onButtonClick2015}>DOWNLOAD</button>
+            <div className='reports-container'>
+                <div className='space '></div>
+                <ReportCard year={2015} btnFunction={onButtonClick2015} />
+                <ReportCard year={2016} btnFunction={onButtonClick2016} />
+                <ReportCard year={2017} btnFunction={onButtonClick2017} />
+                <ReportCard year={2018} btnFunction={onButtonClick2018} />
+                <ReportCard year={2019} btnFunction={onButtonClick2019} />
             </div>
+            <div className='space '></div>
 
-
+            <Footer />
 
         </div>
     )
