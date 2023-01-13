@@ -4,6 +4,8 @@ import Image from 'next/image'
 // import boy from '../public/assets/prototypePictures/children/smallboysmile.jpg'
 import Footer from '../components/Footer';
 import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
+import Head from 'next/head'
+
 
 
 
@@ -11,6 +13,13 @@ import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
 const Services = () => {
     return (
         <div className='margintopNv'>
+            <Head>
+                <title>Services | Comboni Health</title>
+                <meta name="description" content="Services Comboni Health Programme (CHP)  offers to community members in Nairobi,Kenya" />
+                <meta name="description" content="HIV/AIDS treatment in Nairobi,Kenya" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/assets/favicon.ico" />
+            </Head>
             <NavBar />
             <h1 className="fancyHeader">Services</h1>
             <p className='special-paragraph2'>We provide quality, affordable and reliable healthcare services to people living with HIV and AIDS and children with disabilities in Korogocho, Kariobangi and Huruma.</p>

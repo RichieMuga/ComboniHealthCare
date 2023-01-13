@@ -4,6 +4,8 @@ import logo from '../public/assets/logos/comboniHealthProgramme-removebg-preview
 import { HiOutlineDocumentReport } from "react-icons/hi";
 import ReportCard from '../components/ReportCard';
 import Footer from '../components/Footer';
+import Head from 'next/head'
+
 
 const Reports = () => {
     const images = [
@@ -84,6 +86,12 @@ const Reports = () => {
 
     return (
         <div className='margintopNv'>
+            <Head>
+                <title>Reports | Comboni Health</title>
+                <meta name="description" content="Reports/news form 2015,2016,2017,2018 and 2019 of Comboni Health Programme (CHP) in Nairobi,Kenya" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/assets/favicon.ico" />
+            </Head>
             <NavBar />
             <h1 className='normal-header'>Reports</h1>
             <div className='reports-container'>

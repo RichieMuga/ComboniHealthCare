@@ -3,11 +3,20 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer';
 import Link from 'next/link';
 import { BsPaypal } from "react-icons/bs";
+import Head from 'next/head'
+
 
 
 const Donate = () => {
     return (
         <div className='margintopNv'>
+            <Head>
+                <title>Services | Comboni Health</title>
+                <meta name="description" content="Donate to Comboni Health Programme (CHP)  offers to community members in Nairobi,Kenya" />
+                <meta name="description" content="Donate to a community based program in Nairobi,Kenya" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/assets/favicon.ico" />
+            </Head>
             <NavBar />
             <h1 className='normal-header'>Help Us Make a difference</h1>
             <p className='special-paragraph3'>
