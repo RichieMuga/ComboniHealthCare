@@ -538,13 +538,24 @@ h5 {
 }
 
 @media (max-width: 659px) {
+  .carousel .slide img {
+    width: 20% !important;
+  }
   .margintopNv {
     margin-top: 5em;
+  }
+}
+@media (max-width: 659px) {
+  .carousel .slide img {
+    width: 30% !important;
   }
 }
 @media only screen and (max-width: 380px) {
   .paragraph-11 {
     margin: 0 2em;
+  }
+  .carousel .slide img {
+    width: 38% !important;
   }
   .paragraph-111 {
     margin: 1em 5em;
@@ -553,8 +564,8 @@ h5 {
     width: 80%;
   }
   .testimonialImages {
-    height: 100px;
-    width: 50px;
+    height: 140px;
+    width: 100px;
   }
 }
 /* gallery manenos */
