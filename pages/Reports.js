@@ -95,7 +95,7 @@ const Reports = () => {
             <NavBar />
             <h1 className='normal-header'>Reports</h1>
             <div className='reports-container'>
-                <div className='space '></div>
+
                 <ReportCard year={2015} btnFunction={onButtonClick2015} />
                 <ReportCard year={2016} btnFunction={onButtonClick2016} />
                 <ReportCard year={2017} btnFunction={onButtonClick2017} />

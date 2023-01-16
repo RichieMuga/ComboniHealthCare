@@ -103,7 +103,7 @@ h5 {
 .normal-header {
   text-align: center;
   color: var(--dark-brown);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .fancyHeader {
   text-align: center;
@@ -551,6 +551,10 @@ h5 {
   }
   .div-box-Number-Email {
     width: 80%;
+  }
+  .testimonialImages {
+    height: 100px;
+    width: 50px;
   }
 }
 /* gallery manenos */
