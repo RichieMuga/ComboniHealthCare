@@ -12,6 +12,24 @@
   height: 19em;
 }
 
+.carousel {
+  padding: 1em 0.5em;
+}
+.individualPatner {
+  padding: 0 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 2em;
+  margin: 1em;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 34.12, 36.47, 0.1);
+  border-radius: 3px;
+  box-shadow: var(--shadow-2);
+}
+
 .landingBox h1 {
   font-size: 2.5em;
   color: var(--pinkish-text);
@@ -45,5 +63,10 @@
     flex-direction: column;
     gap: 2em;
     padding: 2em;
+  }
+}
+@media (max-width: 400px) {
+  .landingBox {
+    margin: 6em 2em;
   }
 }
