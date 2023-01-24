@@ -28,6 +28,11 @@
   border-color: rgba(0, 34.12, 36.47, 0.1);
   border-radius: 3px;
   box-shadow: var(--shadow-2);
+  color: black;
+}
+.individualPatner :hover {
+  color: var(--link-color);
+  text-decoration: underline;
 }
 
 .landingBox h1 {

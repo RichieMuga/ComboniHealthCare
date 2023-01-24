@@ -79,6 +79,9 @@ h5 {
 .heading-1 {
   margin: 0;
 }
+.title-p {
+  color: black;
+}
 
 .heading_main {
   font-size: 400px;

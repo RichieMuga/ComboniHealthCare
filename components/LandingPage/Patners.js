@@ -4,6 +4,7 @@ import patnersList from '../../utils/patners'
 import styles from '../../styles/LandingPageCss/landing.module.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Link from 'next/link';
 
 
 
@@ -46,12 +47,14 @@ const Patners = () => {
             <Carousel className={styles.carousel} responsive={responsive} slidesToSlide={1} infinite={true} autoPlay={true} autoPlaySpeed={2500}>
                 {patnersList.map((patner) => {
                     return (
-                        <div key={patner.id} className={styles.individualPatner}>
-                            <div className={styles.patner_column}>
-                                <Image height={100} width={100} src={patner.image} alt={patner.title} />
-                                <p>{patner.title}</p>
+                        <Link href={patner.link} target="_blank">
+                            <div key={patner.id} className={styles.individualPatner}>
+                                <div className={styles.patner_column}>
+                                    <Image height={100} width={100} src={patner.image} alt={patner.title} />
+                                    <p className='title-p'>{patner.title}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}
             </Carousel>
