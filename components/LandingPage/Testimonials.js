@@ -1,9 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import girlImage from '../../public/assets/prototypePictures/children/smallGirlSmile.jpg'
-import boyImage from '../../public/assets/prototypePictures/children/smallboysmile.jpg'
-import Image from 'next/image'
+import testimonyList from '../../utils/testimonials';
 
 
 const Testimonials = () => {
@@ -18,38 +16,15 @@ const Testimonials = () => {
                 autoPlay={true}
                 interval={6100}
             >
-                <div>
-                    <Image src={girlImage} className='testimonialImages' alt='girl' />
-                    <div className="myCarousel">
-                        <h3>Shirley</h3>
-                        <h4>Beneficiary</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi esse voluptatum fugiat recusandae qui aliquam!
-                        </p>
-                    </div>
-                </div>
-
-                <div>
-                    <Image src={boyImage} className='testimonialImages' alt='boy' />
-                    <div className="myCarousel">
-                        <h3>Daniel</h3>
-                        <h4>Beneficiary</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quod.
-                        </p>
-                    </div>
-                </div>
-
-                <div>
-                    <Image src={girlImage} className='testimonialImages' alt='girl' />
-                    <div className="myCarousel">
-                        <h3>Cindy</h3>
-                        <h4>Beneficiary</h4>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cupiditate.
-                        </p>
-                    </div>
-                </div>
+                {testimonyList.map((singleTestimony) => {
+                    return (
+                        <div key={singleTestimony.id} className='myCarousel'>
+                            <h3>{singleTestimony.name}</h3>
+                            <h4>Beneficiary</h4>
+                            <p>{singleTestimony.testimony}</p>
+                        </div>
+                    )
+                })}
             </Carousel>
         </div>
 
