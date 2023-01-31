@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <button onClick={handleBackTotop} className={styles.btn_top} type="submit">Back to top</button>
             {/* newsletter section */}
-            <div className={styles.newsLetter}>
+            {/* <div className={styles.newsLetter}>
                 <h4 className={styles.newsLetterTitle}>NewsLetter</h4>
 
                 <div className={styles.textNsubscribe}>
@@ -26,7 +26,7 @@ const Footer = () => {
                         <button className={styles.nws_btn} type="submit">Subscribe</button>
                     </section>
                 </div>
-            </div>
+            </div> */}
             {/* links section */}
             <section className={styles.links_heading}>
                 <div className={styles.links_individual}>

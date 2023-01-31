@@ -28,7 +28,7 @@ const CoreMembers = () => {
                     <h4 className={styles.titleLeader}>Project Coordinator</h4>
                     <h5>Everline Achieng</h5>
                     {/* <p className={styles.email}>Email:</p> */}
-                    <p className={styles.email}>Email: pco @combonihealth.or.ke</p>
+                    <p className={styles.email}>Email: pco@combonihealth.or.ke</p>
                 </div>
 
                 <div className={styles.flexCenter}>

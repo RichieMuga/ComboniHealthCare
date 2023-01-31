@@ -47,7 +47,7 @@ const Patners = () => {
             <Carousel className={styles.carousel} responsive={responsive} slidesToSlide={1} infinite={true} autoPlay={true} autoPlaySpeed={2500}>
                 {patnersList.map((patner) => {
                     return (
-                        <Link href={patner.link} target="_blank">
+                        <Link href={patner.link} target="_blank" key={patner.id}>
                             <div key={patner.id} className={styles.individualPatner}>
                                 <div className={styles.patner_column}>
                                     <Image height={100} width={100} src={patner.image} alt={patner.title} />

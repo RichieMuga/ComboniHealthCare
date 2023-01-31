@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 // import lovefromchildren from '../../public/assets/prototypePictures/children/lovefromchildren.jpg'
-import love from '../../public/assets/prototypePictures/children/lovefromchildren.jpg'
+import aboutUs from '../../public/assets/picturesFromOscar/aboutUs/aboutUs.jpg'
 import styles from '../../styles/AboutPageCss/AboutUs.module.css'
 
 // height = { 230} width = { 390}
@@ -23,8 +23,8 @@ const AboutUsSection = () => {
                 </div>
                 <Image
                     className={styles.image2}
-                    src={love}
-                    alt='love'></Image></div>
+                    src={aboutUs}
+                    alt='aboutUs'></Image></div>
         </div>
     )
 }

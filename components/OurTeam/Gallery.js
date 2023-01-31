@@ -1,9 +1,17 @@
 import React from 'react'
 import ImageGallery from 'react-image-gallery';
+import OurTeam1 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide1.jpg';
+import OurTeam2 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide2.jpg';
+import OurTeam3 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide3.jpg';
+import OurTeam4 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide4.jpg';
+import OurTeam5 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide5.jpg';
+import OurTeam6 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpg';
+
+
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
+        original: OurTeam1,
         thumbnail: 'https://picsum.photos/id/1018/250/150/',
     },
     {

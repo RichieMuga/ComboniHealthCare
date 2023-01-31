@@ -65,7 +65,7 @@ const NavBar = () => {
                 <div className={`${styles.wrapper} ${styles.site_header__wrapper}`}>
 
                     <div className={styles.site_header__start}>
-                        <Link href="#" className={styles.brand}><Image alt='ComboniHealth' src={logo} height={70} width={70}></Image></Link>
+                        <Link href="/" className={styles.brand}><Image alt='ComboniHealth' src={logo} height={70} width={70}></Image></Link>
                     </div>
                     <div className={styles.site_header__middle}>
                         <nav className={styles.nav}>

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../../styles/AboutPageCss/VisionNMission.module.css'
 import Image from 'next/image'
-import boy from '../../public/assets/prototypePictures/children/smallboysmile.jpg'
-import girl from '../../public/assets/prototypePictures/children/girlinRed.jpg'
+import vision from '../../public/assets/picturesFromOscar/aboutUs/vision.jpg'
+import mission from '../../public/assets/picturesFromOscar/aboutUs/mission.jpg'
 // girlinRed.jpg
 // smallboysmile.jpg
 
@@ -12,7 +12,7 @@ const VisionNMission = () => {
             <div className={styles.VnMcontainer}>
                 {/* image */}
                 <div>
-                    <Image src={girl} className={styles.images}></Image>
+                    <Image src={vision} className={styles.images}></Image>
                 </div>
                 <span className={styles.VnMinnerContainer}>
                     <h1 className={styles.vision}>Our Vision</h1>
@@ -37,7 +37,7 @@ const VisionNMission = () => {
                 </span>
                 {/* image */}
                 <div>
-                    <Image src={boy} className={styles.images}></Image>
+                    <Image src={mission} className={styles.images}></Image>
                 </div>
 
             </div>
