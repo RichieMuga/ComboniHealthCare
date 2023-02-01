@@ -27,7 +27,7 @@ const GetInvolved = () => {
                 For donation kindly click on the donation button for further details, while to get involved with our projects in other ways(For example volunteering or sponsoring). Kindly reach us with the following contacts.
             </p>
             <div className='div-box-Number-Email'>
-                <p><IoIosCall size={23} />{' '}+254722262746</p>
+                <p><IoIosCall size={23} />{' '}+257744079607</p>
                 <p><MdEmail size={23} /> {' '}pco@combonihealth.or.ke</p>
             </div>
 
