@@ -11,7 +11,7 @@ const CoreMembers = () => {
         <section className={styles.center}>
             <div className={styles.team_grid}>
                 <div className={styles.flexCenter}>
-                    <Image src={Leader1} className={styles.images} />
+                    <Image src={Leader1} className={styles.images} alt="Fr. Charles Ndagijimana" />
                     <h4 className={styles.titleLeader}>Director</h4>
                     <h5>Fr. Charles Ndagijimana</h5>
                     <p className={styles.email}>Email: director@combonihealth.or.ke</p>
@@ -24,7 +24,7 @@ const CoreMembers = () => {
                     <p className={styles.email}>Email: pco@combonihealth.or.ke</p>
                 </div> */}
                 <div className={styles.flexCenter}>
-                    <Image src={Leader33} className={styles.images} />
+                    <Image src={Leader33} className={styles.images} alt="Everline Achieng" />
                     <h4 className={styles.titleLeader}>Project Coordinator</h4>
                     <h5>Everline Achieng</h5>
                     {/* <p className={styles.email}>Email:</p> */}
@@ -32,7 +32,7 @@ const CoreMembers = () => {
                 </div>
 
                 <div className={styles.flexCenter}>
-                    <Image src={Leader2} className={styles.images} />
+                    <Image src={Leader2} className={styles.images} alt="Oketch Odeny" />
                     <h4 className={styles.titleLeader}>Incharge
                         Comprehensive Care <br /> Clinic Department (CCC)</h4>
                     <h5>Oketch Odeny</h5>
@@ -41,7 +41,7 @@ const CoreMembers = () => {
                 </div>
 
                 <div className={styles.flexCenter}>
-                    <Image src={Leader4} className={styles.images} />
+                    <Image src={Leader4} className={styles.images} alt="Irene Muange Nduku" />
                     <h4 className={styles.titleLeader}>Incharge
                         Community Based  <br />Rehabilitation Project (CBRP)</h4>
                     <h5>Irene Muange Nduku</h5>

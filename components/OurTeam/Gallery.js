@@ -1,31 +1,54 @@
 import React from 'react'
-import ImageGallery from 'react-image-gallery';
-import OurTeam1 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide1.jpg';
-import OurTeam2 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide2.jpg';
-import OurTeam3 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide3.jpg';
-import OurTeam4 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide4.jpg';
-import OurTeam5 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide5.jpg';
-import OurTeam6 from '../../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import teamList from '../../utils/teamPictures';
+import Image from 'next/image';
 
 
-
-const images = [
-    {
-        original: OurTeam1,
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-];
 
 const Gallery = () => {
-    return <ImageGallery items={images} />
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+    };
+    return (
+        <Slider {...settings}>
+            {teamList.map((team) => {
+                return (
+                    <div className='center' key={team.id}>
+                        <Image className='image' src={team.image} alt={team.alt} />
+                    </div>
+                )
+            })}
+        </Slider>
+
+    )
+
 }
 
 export default Gallery
+
+// $('.slider-for').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     arrows: false,
+//     fade: true,
+//     asNavFor: '.slider-nav'
+// });
+// $('.slider-nav').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     asNavFor: '.slider-for',
+//     dots: true,
+//     centerMode: true,
+//     focusOnSelect: true
+// });

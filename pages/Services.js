@@ -3,7 +3,10 @@ import NavBar from '../components/NavBar';
 import Image from 'next/image'
 // import boy from '../public/assets/prototypePictures/children/smallboysmile.jpg'
 import Footer from '../components/Footer';
-import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
+// import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
+import ccc from '../public/assets/picturesFromOscar/services/ccc.jpg'
+import rehabProject from '../public/assets/picturesFromOscar/services/rehabProject.jpg'
+import socialSupport from '../public/assets/picturesFromOscar/services/socialSupport.jpg'
 import Head from 'next/head'
 
 
@@ -25,7 +28,7 @@ const Services = () => {
             <p className='special-paragraph2'>We provide quality, affordable and reliable healthcare services to people living with HIV and AIDS and children with disabilities in Korogocho, Kariobangi and Huruma.</p>
             <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy2} />
+                    <Image className='roundedPicture' src={ccc} alt='ccc' />
                     <div>
                         <h1 className='heading-1 '> Comprehensive Care clinic</h1>
                         <ul className='ul-padding'>
@@ -47,7 +50,7 @@ const Services = () => {
 
             <div className='div-For-responsiveness special-background'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy2} />
+                    <Image className='roundedPicture' src={rehabProject} alt='rehabProject' />
                     <div>
                         <h1 className='heading-1 '> Community Based Rehabilitation Project</h1>
                         <ul className='ul-padding'>
@@ -62,7 +65,7 @@ const Services = () => {
 
             <div className='div-For-responsiveness'>
                 <div className='flex_kidogo_mpya '>
-                    <Image className='roundedPicture' src={boy2} />
+                    <Image className='roundedPicture' src={socialSupport} alt='socialSupport' />
                     <div>
                         <h1 className='heading-1 '> Social Support</h1>
                         <ul className='ul-padding'>
@@ -74,52 +77,6 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-
-            {/* <div className='div-For-responsiveness'>
-                <div className='flex_kidogo_mpya '>
-                    <Image src={boy2} height={340} width={460} />
-                    <div>
-                        <h1 >Community Based Rehabilitation Project</h1>
-                        <p>
-
-                            • Physiotherapy and occupational therapy services<br />
-
-                            • Home therapy programs<br />
-
-                            • Referrals and networking<br />
-
-                            • Dispensing of anticonvulsant drugs<br />
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className='div-For-responsiveness'>
-                <div className='flex_kidogo_mpya '>
-                    <Image src={boy2} height={340} width={460} />
-                    <div>
-                        <h1> Social Support</h1>
-                        <p>
-
-                            • Psychological counseling services<br />
-
-
-
-                            • Support groups<br />
-
-
-
-                            • Home Based Care programs<br />
-
-
-
-                            • Feeding program<br />
-
-
-                        </p>
-                    </div> */}
-            {/* </div> */}
-            {/* </div> */}
             <Footer />
         </div>
     )
