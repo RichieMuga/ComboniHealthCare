@@ -2,6 +2,8 @@ import styles from '../styles/footer.module.css'
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
 import { animateScroll as scroll } from 'react-scroll'
 import { HiLocationMarker } from "react-icons/hi";
+import Link from 'next/link';
+
 
 
 // BsTwitter
@@ -32,9 +34,9 @@ const Footer = () => {
                 <div className={styles.links_individual}>
                     <h4>Quick Links</h4>
                     <div>
-                        <p>Contact Us</p>
-                        <p>About</p>
-                        <p>Help</p>
+                        <Link href="/GetInvolved"><p>Contact Us</p></Link>
+                        <Link href="/AboutUs"><p>About</p></Link>
+                        <Link href="https://goo.gl/maps/h13AfFhcTqJN9kRf7"><p>Location</p></Link>
 
                     </div>
                 </div>
@@ -47,15 +49,15 @@ const Footer = () => {
                 </div>
             </section>
             {/* socials section */}
-            <section className="flex_kidogo">
+            {/* <section className="flex_kidogo">
                 <BsTwitter size={22} color="#ffffff" />
                 <BsFacebook size={22} color="#ffffff" />
                 <BsInstagram size={22} color="#ffffff" />
-            </section>
+            </section> */}
             {/* final footer section */}
             <section className='flex_kidogo'>
                 {/* <Image src={logo}></Image> */}
-                <p className='smallP'>Made by Richie Mugambi</p>
+                <p className='smallP'>Comboni Health Program 2023</p>
             </section>
 
         </div>
