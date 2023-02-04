@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-// import lovefromchildren from '../../public/assets/prototypePictures/children/lovefromchildren.jpg'
-import aboutUs from '../../public/assets/picturesFromOscar/aboutUs/aboutUs.jpg'
+import aboutUs from '../../public/assets/picturesFromOscar/aboutUs/aboutUs.jpeg'
 import styles from '../../styles/AboutPageCss/AboutUs.module.css'
 
 // height = { 230} width = { 390}

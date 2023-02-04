@@ -1,9 +1,12 @@
-import OurTeam1 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide1.jpg';
-import OurTeam2 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide2.jpg';
-import OurTeam3 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide3.jpg';
-import OurTeam4 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide4.jpg';
-import OurTeam5 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide5.jpg';
-import OurTeam6 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpg';
+import OurTeam1 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide1.jpeg';
+import OurTeam2 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide2.jpeg';
+import OurTeam3 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide3.jpeg';
+import OurTeam4 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide4.jpeg';
+import OurTeam5 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide5.jpeg';
+import OurTeam6 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
+import OurTeam7 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
+import OurTeam8 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
+
 const teamList = [
     {
         id: 0,
@@ -38,6 +41,18 @@ const teamList = [
     {
         id: 5,
         image: OurTeam6,
+        alt: "OurTeam",
+
+    },
+    {
+        id: 6,
+        image: OurTeam7,
+        alt: "OurTeam",
+
+    },
+    {
+        id: 7,
+        image: OurTeam8,
         alt: "OurTeam",
 
     },

@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import styles from '../../styles/LandingPageCss/whatweDo.module.css'
 import CardDetails from '../CardDetails'
-import capacityBuilding from '../../public/assets/picturesFromOscar/whatwedo/capacityBuilding.jpg'
-import hivAwareness from '../../public/assets/picturesFromOscar/whatwedo/hivAwareness.jpg'
-import therapy from '../../public/assets/picturesFromOscar/whatwedo/therapyDisability.jpg'
+import capacityBuilding from '../../public/assets/picturesFromOscar/whatwedo/capacityBuilding.jpeg'
+import hivAwareness from '../../public/assets/picturesFromOscar/whatwedo/hivAwareness.jpeg'
+import therapy from '../../public/assets/picturesFromOscar/whatwedo/therapyDisability.jpeg'
 import { motion, useAnimation, useInView } from 'framer-motion'
 
 

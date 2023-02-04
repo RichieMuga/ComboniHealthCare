@@ -1,10 +1,9 @@
 import React from 'react'
 import styles from '../../styles/AboutPageCss/VisionNMission.module.css'
 import Image from 'next/image'
-import vision from '../../public/assets/picturesFromOscar/aboutUs/vision.jpg'
-import mission from '../../public/assets/picturesFromOscar/aboutUs/mission.jpg'
-// girlinRed.jpg
-// smallboysmile.jpg
+import vision from '../../public/assets/picturesFromOscar/aboutUs/vision.jpeg'
+import mission from '../../public/assets/picturesFromOscar/aboutUs/mission.jpeg'
+
 
 const VisionNMission = () => {
     return (
