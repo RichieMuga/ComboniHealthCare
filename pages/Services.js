@@ -1,12 +1,12 @@
 import React from 'react'
 import NavBar from '../components/NavBar';
 import Image from 'next/image'
-// import boy from '../public/assets/prototypePictures/children/smallboysmile.jpg'
+// import boy from '../public/assets/prototypePictures/children/smallboysmile.jpeg'
 import Footer from '../components/Footer';
-// import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpg'
-import ccc from '../public/assets/picturesFromOscar/services/ccc.jpg'
-import rehabProject from '../public/assets/picturesFromOscar/services/rehabProject.jpg'
-import socialSupport from '../public/assets/picturesFromOscar/services/socialSupport.jpg'
+// import boy2 from '../public/assets/prototypePictures/children/smallboysmile.jpeg'
+import ccc from '../public/assets/picturesFromOscar/services/ccc.jpeg'
+import rehabProject from '../public/assets/picturesFromOscar/services/rehabProject.jpeg'
+import socialSupport from '../public/assets/picturesFromOscar/services/socialSupport.jpeg'
 import Head from 'next/head'
 
 
