@@ -1,8 +1,8 @@
 import React from 'react'
 import NavBar from '../components/NavBar';
 import Image from 'next/image'
-// import team from '../public/assets/team.jpg'
-import cover from '../public/assets/picturesFromOscar/ourTeam/COVERteam.jpg'
+// import team from '../public/assets/team.jpeg'
+import cover from '../public/assets/picturesFromOscar/ourTeam/COVERteam.jpeg'
 import Footer from '../components/Footer';
 import CoreMembers from '../components/OurTeam/CoreMembers';
 import ImportantRoles from '../components/OurTeam/ImportantRoles';
