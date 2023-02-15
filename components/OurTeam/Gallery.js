@@ -21,16 +21,17 @@ const Gallery = () => {
         arrows: false,
     };
     return (
-        <Slider {...settings}>
-            {teamList.map((team) => {
-                return (
-                    <div className='center' key={team.id}>
-                        <Image className='image' src={team.image} alt={team.alt} />
-                    </div>
-                )
-            })}
-        </Slider>
-
+        <section className='small-height' >
+            <Slider {...settings}>
+                {teamList.map((team) => {
+                    return (
+                        <div className='center' key={team.id}>
+                            <Image className='image' src={team.image} alt={team.alt} />
+                        </div>
+                    )
+                })}
+            </Slider>
+        </section>
     )
 
 }
