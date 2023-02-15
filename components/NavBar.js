@@ -80,7 +80,7 @@ const NavBar = () => {
                                 <li className={active === "/AboutUs" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/AboutUs")}><Link style={{ color: `${textColor}` }} href="/AboutUs">About us</Link></li>
                                 <li className={active === "/GetInvolved" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/GetInvolved" onClick={() => setActive("GetInvolved")}>Get Involved</Link></li>
                                 <li className={active === "/OurTeaM" ? `${styles.nav__item} ${styles.active}` : styles.nav__item}><Link style={{ color: `${textColor}` }} href="/OurTeam" onClick={() => setActive("GetInvolved")}>Our Team</Link></li>
-                                <li className={active === "/Reports" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/News")}><Link style={{ color: `${textColor}` }} href="/Reports">Reports</Link></li>
+                                <li className={active === "/Events" ? `${styles.nav__item} ${styles.active}` : styles.nav__item} onClick={() => setActive("/Events")}><Link style={{ color: `${textColor}` }} href="/Events">Events</Link></li>
                             </ul>
                         </nav>
                     </div>
