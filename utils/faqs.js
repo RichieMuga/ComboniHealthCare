@@ -6,7 +6,7 @@ const faqList = [
     },
     {
         id: 1,
-        question: 'What is Comboni?',
+        question: 'Who are we?',
         answer: `We are non profit Community Based Health Organization run by the Comboni Missionaries in Kenya(Verona Fathers) that offers health care services for people living with HIV & AIDS and children with disabilities in North east of Nairobi.`,
     },
     {

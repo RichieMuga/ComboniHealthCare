@@ -28,7 +28,7 @@ const GetInvolved = () => {
             </p>
             <div className='div-box-Number-Email'>
                 <p><IoIosCall size={23} />{' '}+257744079607</p>
-                <p><MdEmail size={23} /> {' '}pco@combonihealth.or.ke</p>
+                <p><MdEmail size={23} /> {' '}director@combonihealth.or.ke</p>
             </div>
 
             <Footer />

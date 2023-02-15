@@ -40,7 +40,6 @@ const Services = () => {
                             <li>• Pharmacy</li><br />
                             <li>• TB clinic</li><br />
                             <li>• Prevention of Mother to Child Transmission</li><br />
-                            <li>• Natural supplements therapy clinic</li><br />
                             <li>• Sexual and Gender Based Violence support</li><br />
 
                         </ul>

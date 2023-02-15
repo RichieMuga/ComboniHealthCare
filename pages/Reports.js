@@ -28,7 +28,7 @@ const Reports = () => {
     }
     const onButtonClick2016 = () => {
         // using Java Script method to get PDF file
-        fetch('/reports/Comboni Health Programme Annual Report 2015.pdf').then(response => {
+        fetch('/reports/Comboni Health Programme Annual Report 2016.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
@@ -42,7 +42,7 @@ const Reports = () => {
     }
     const onButtonClick2017 = () => {
         // using Java Script method to get PDF file
-        fetch('/reports/Comboni Health Programme Annual Report 2015.pdf').then(response => {
+        fetch('/reports/Comboni Health Programme Annual Report 2017.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
@@ -56,7 +56,7 @@ const Reports = () => {
     }
     const onButtonClick2018 = () => {
         // using Java Script method to get PDF file
-        fetch('/reports/Comboni Health Programme Annual Report 2015.pdf').then(response => {
+        fetch('/reports/Comboni Health Programme Annual Report 2018.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
@@ -70,7 +70,7 @@ const Reports = () => {
     }
     const onButtonClick2019 = () => {
         // using Java Script method to get PDF file
-        fetch('/reports/Comboni Health Programme Annual Report 2015.pdf').then(response => {
+        fetch('/reports/Comboni Health Programme Annual Report 2019.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);

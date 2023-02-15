@@ -1,5 +1,5 @@
 import React from 'react'
-import Leader1 from '../../public/assets/prototypePictures/Leaders/Leader1.png';
+import Leader1 from '../../public/assets/prototypePictures/Leaders/Leader1.jpeg';
 import Leader2 from '../../public/assets/prototypePictures/Leaders/Leader2.jpeg';
 import Leader4 from '../../public/assets/prototypePictures/Leaders/Leader4.jpeg';
 import Leader33 from '../../public/assets/prototypePictures/Leaders/Leader33.jpg';
@@ -11,9 +11,9 @@ const CoreMembers = () => {
         <section className={styles.center}>
             <div className={styles.team_grid}>
                 <div className={styles.flexCenter}>
-                    <Image src={Leader1} className={styles.images} alt="Fr. Charles Ndagijimana" />
+                    <Image src={Leader1} className={styles.images} alt="Fr. Kevin Oduor" />
                     <h4 className={styles.titleLeader}>Director</h4>
-                    <h5>Fr. Charles Ndagijimana</h5>
+                    <h5>Fr. Kevin Oduor</h5>
                     <p className={styles.email}>Email: director@combonihealth.or.ke</p>
                 </div>
 

@@ -2,7 +2,7 @@ const testimonyList = [
     {
         id: 0,
         name: 'Florence Awino.',
-        testimony: '"I am grateful to the Comboni Health Program for providing comprehensive care and support which has resulted in all my 4 HIV+ children, including Jayden and Maxwell, testing negative."',
+        testimony: '"I am grateful to the Comboni Health Program for providing comprehensive care and support which has resulted to prevention of HIV infection to all my 4 children, including Jayden and Maxwell, testing negative."',
     },
     {
         id: 1,

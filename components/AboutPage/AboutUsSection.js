@@ -13,7 +13,7 @@ const AboutUsSection = () => {
             <h1 className='normal-header'>Changing children{"'"}s lives</h1>
             <div className={styles.about_container}>
                 <div className={styles.readableParagraph}>
-                    <p>Comboni Health Programme (CHP) is a Community Based Health Organization managed by Comboni Missionaries at Kariobangi Parish under the directorship of Fr Jean Paul Bitia. CHP is a home based care programme that offers health intervention to the people of Korogocho, Kariobangi and Huruma in addressing HIV and disability among children. This is done through the two projects within the community, a CCC and a CBRP. The CCC serves the people of Korogocho while the CBRP services are extend to cover Kariobangi and Huruma.
+                    <p>Comboni Health Programme (CHP) is a Community Based Health Organization managed by Comboni Missionaries at Kariobangi Parish under the directorship of Fr.Kevin Oduor. CHP is a home based care programme that offers health intervention to the people of Korogocho, Kariobangi and Huruma in addressing HIV and disability among children. This is done through the two projects within the community, a CCC and a CBRP. The CCC serves the people of Korogocho while the CBRP services are extend to cover Kariobangi and Huruma.
                     </p>
                     <p>
                         The programme is dedicated to promote a healthier and happier living for people living with HIV infection by
