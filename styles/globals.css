@@ -438,13 +438,14 @@ h5 {
   margin-top: 7em;
 }
 .div-box-Number-Email2 {
-  padding: 2em 1em;
+  /* padding: 2em 1em; */
   /* display: flex;
   justify-content: center; */
   /* flex-direction: column; */
-  margin: 3em auto;
+  padding: 1em;
+  margin: 2em auto;
   font-size: larger;
-  width: 50%;
+  width: 85%;
   background: var(--light-brown);
   color: white;
   border-radius: var(--borderRadius5);

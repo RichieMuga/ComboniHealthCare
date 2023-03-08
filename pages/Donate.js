@@ -23,19 +23,63 @@ const Donate = () => {
                 You can support our project activities to improve lives by making a donation. There are a number of ways that you can support our work.
             </p>
             <div className='div-box-Number-Email2'>
-                1.If you would prefer to make a regular contribution in loco, you are most welcome to visit us (see our location main office on this website)
+                1.If you would prefer to make a regular contribution in the local area, you are most welcome to visit us (click on location at the bottom of the website)
                 <br />
                 <br />
                 <br />
                 <br />
 
-                2. Make a donation via:
-                [paypal-donation]
+                2.[To make a donation via bank transfer, please use the following details.]
+                <br />
+                Our Bank Details:
                 <br />
                 <br />
-                <BsPaypal />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>ACCOUNT NAME:</td>
+                            <td>&nbsp;&nbsp;&nbsp;COMBONI HEALTH PROGRAMME</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>ACCOUNT NUMBER:</td>
+                            <td>&nbsp;&nbsp;&nbsp;1203391258</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>BANK:</td>
+                            <td>&nbsp;&nbsp;&nbsp;NCBA BANK KENYA</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>BRANCH:</td>
+                            <td>&nbsp;&nbsp;&nbsp;THIKA ROAD MALL</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>BRANCH CODE:</td>
+                            <td>&nbsp;&nbsp;&nbsp;123</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>SWIFT CODE:</td>
+                            <td>&nbsp;&nbsp;&nbsp;CBAFKENX</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>CURRENCY:</td>
+                            <td>&nbsp;&nbsp;&nbsp;KES</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>BANK CODE:</td>
+                            <td>&nbsp;&nbsp;&nbsp;07000</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                <br />
+
+
                 <br />
                 <br />
 
