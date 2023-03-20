@@ -4,8 +4,8 @@ import OurTeam3 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide3.j
 import OurTeam4 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide4.jpeg';
 import OurTeam5 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide5.jpeg';
 import OurTeam6 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
-import OurTeam7 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
-import OurTeam8 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide6.jpeg';
+import OurTeam7 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide7.jpeg';
+import OurTeam8 from '../public/assets/picturesFromOscar/ourTeam/ourTeamSlide8.jpeg';
 import ourTeamMain1 from '../public/assets/picturesFromOscar/ourTeam/ourTeamMain1.jpeg';
 import ourTeamMain2 from '../public/assets/picturesFromOscar/ourTeam/ourTeamMain2.jpeg';
 

@@ -31,7 +31,7 @@ const HeroOutline = () => {
             <motion.section className={styles.landingBox} animate={animation} >
                 <h1 className='heading_main'>Who are we?</h1>
                 <p className='normal_head' style={{ color: '#ffffff' }}>
-                    We are a <b>community based organization(CBO)</b> that offer health intervention to the people of Korogocho, Kariobangi and Huruma, addressing <b>HIV</b> and <b>dIsability among children.</b>
+                    We are a <b>community based organization(CBO)</b> that offer health intervention to the people of Korogocho, Kariobangi and Huruma, addressing <b>HIV</b> and <b>disability among children.</b>
                 </p>
                 <Link style={{ display: "block" }} href='/AboutUs'><button className="button-9">Read more</button></Link>
             </motion.section>

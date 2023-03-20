@@ -112,6 +112,9 @@ h5 {
   color: var(--dark-brown);
   /* text-decoration: underline; */
 }
+.underline{
+  text-decoration: underline;
+}
 .normal_head {
   color: white;
 }

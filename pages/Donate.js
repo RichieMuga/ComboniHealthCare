@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer';
 import Link from 'next/link';
-import { BsPaypal } from "react-icons/bs";
 import Head from 'next/head'
 
 
@@ -23,13 +22,40 @@ const Donate = () => {
                 You can support our project activities to improve lives by making a donation. There are a number of ways that you can support our work.
             </p>
             <div className='div-box-Number-Email2'>
-                1.If you would prefer to make a regular contribution in the local area, you are most welcome to visit us (click on location at the bottom of the website)
+                <b className='underline'>1.If you would prefer to make a regular contribution in the local area, you are most welcome to visit us (click on location at the bottom of the website)</b>
                 <br />
                 <br />
                 <br />
                 <br />
+                <b className='underline'>2. For local transfers kindly use the following details:</b>
+                <br />
+                <br />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>PAYBILL NUMBER</td>
+                            <td>&nbsp;&nbsp;&nbsp;4109251</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>ACCOUNT NUMBER:</td>
+                            <td>&nbsp;&nbsp;&nbsp;1203391258</td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>ACCOUNT NAME</td>
+                            <td>&nbsp;&nbsp;&nbsp;COMBONI HEALTH PROGRAM-GOROGOCHO</td>
+                        </tr>
+                        <br />          
+                    </tbody>
+                </table>
 
-                2.[To make a donation via bank transfer, please use the following details.]
+                <br />
+                <br />
+                
+
+                <b className='underline'>3.[To make a donation via bank transfer/ international transfer, please use the following details.]</b>
+                <br />
                 <br />
                 Our Bank Details:
                 <br />
@@ -84,7 +110,7 @@ const Donate = () => {
                 <br />
 
 
-                3.Fundraise for us – run a marathon, organise a cake sale or host a party for Comboni Health Programme.
+                4.Fundraise for us – run a marathon, organise a cake sale or host a party for Comboni Health Programme.
             </div>
             <p className='special-paragraph'>
                 Please  <Link href='/GetInvolved'><span className='link'>Contact Us </span></Link>if you would like to discuss a fundraising event with us and we will promote it on social media. Any other way you would like to help us, just contact us.
