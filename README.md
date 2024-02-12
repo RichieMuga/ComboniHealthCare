@@ -6,12 +6,17 @@ This is a Community-Based Organization application, focusing on health issues in
 I was motivated by a sincere commitment to address pressing health issues, particularly HIV and disabilities among children, the project was initiated under the auspices of a Community-Based Organization.
 
 ## Getting Started
-First install dependancies:
+First clone the repo:
+```
+https://github.com/RichieMuga/ComboniHealthCare/
+```
+
+Second install dependancies:
 ```bash
 npm install
 ```
 
-First, run the development server:
+Thrird, run the development server:
 
 ```bash
 npm run dev
